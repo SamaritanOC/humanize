@@ -8,7 +8,7 @@ Strip the AI out of AI written copy. Keep everything else exactly as it is.
 
 ## What it does
 
-Humanize is a Claude Cowork skill that rewrites AI generated copy to remove every detectable AI writing pattern the inflated vocabulary, the em dashes, the fake profundity — without touching your meaning, your length, or your intent.
+Humanize is a Claude Cowork skill that rewrites AI generated copy to remove every detectable AI writing pattern the inflated vocabulary, the em dashes, the fake profundity without touching your meaning, your length, or your intent.
 
 It works through seven categories of AI tells on every pass:
 

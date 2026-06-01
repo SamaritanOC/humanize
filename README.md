@@ -4,21 +4,21 @@
 
 **A Claude Cowork Skill**
 
-Strip the AI out of AI-written copy. Keep everything else exactly as it is.
+Strip the AI out of AI written copy. Keep everything else exactly as it is.
 
 ## What it does
 
-Humanize is a Claude Cowork skill that rewrites AI-generated copy to remove every detectable AI writing pattern — the inflated vocabulary, the em dashes, the fake profundity — without touching your meaning, your length, or your intent.
+Humanize is a Claude Cowork skill that rewrites AI generated copy to remove every detectable AI writing pattern the inflated vocabulary, the em dashes, the fake profundity — without touching your meaning, your length, or your intent.
 
 It works through seven categories of AI tells on every pass:
 
-- **AI vocabulary** — "pivotal," "tapestry," "underscore," "delve," "vibrant," and 50+ others
-- **Em dashes** — replaced completely with commas, colons, or sentence breaks. No em dashes remain in the output.
-- **Puffery and fake significance** — trailing significance claims, hollow legacy phrases, unsupported impact language
-- **"Not just X, but Y" patterns** — collapsed into plain, direct statements
-- **Mechanical bold formatting** — over-bolded key terms cleaned up to readable prose
-- **Chatbot sign-offs** — "I hope this helps," "Let me know if..." deleted
-- **Knowledge-cutoff disclaimers** — AI boilerplate hedges removed or rewritten as plain factual statements
+- **AI vocabulary**: "pivotal," "tapestry," "underscore," "delve," "vibrant," and 50+ others
+- **Em dashes** :replaced completely with commas, colons, or sentence breaks. No em dashes remain in the output.
+- **Puffery and fake significance**: trailing significance claims, hollow legacy phrases, unsupported impact language
+- **"Not just X, but Y" patterns**: collapsed into plain, direct statements
+- **Mechanical bold formatting**: over-bolded key terms cleaned up to readable prose
+- **Chatbot sign-offs**:  "I hope this helps," "Let me know if..." deleted
+- **Knowledge-cutoff disclaimers**: AI boilerplate hedges removed or rewritten as plain factual statements
 
 After each pass, the skill delivers a plain-language change report covering exactly what was changed and why. It then asks whether you want further edits or to download the result as a Word doc (.docx), plain text (.txt), or Markdown (.md) file.
 
@@ -44,7 +44,7 @@ Paste your text and the skill does the rest.
 
 ## Changelog
 
-### v1.1.0 — 2026-05-10
+### v1.1.0 - 2026-05-10
 
 Structural refactor to align with the Anthropic Agent Skill standard. No change to the rewrite logic; the skill produces the same output on the same input as v1.0.0.
 
@@ -56,12 +56,12 @@ Structural refactor to align with the Anthropic Agent Skill standard. No change 
 - Removed author/homepage block from SKILL.md body; now lives in `metadata`
 - Expanded vocabulary list from ~37 entries to ~59, organized into five sections: high-priority replacements, corporate/consultancy tells, inspirational/aspirational tells, marketing/lifestyle tells, and inflation tells
 - Added three new throat-clearing opener patterns: "In an era where...", "At the heart of...", "It's worth noting that..."
-- Removed all em dashes from SKILL.md body (self-consistency fix — the skill's own hard rule is em dash elimination)
+- Removed all em dashes from SKILL.md body (self-consistency fix the skill's own hard rule is em dash elimination)
 - Added em dash check to the Step 3 final review pass
 
-### v1.0.0 — Initial release
+### v1.0.0 - Initial release
 
-- Humanize rewrites AI-generated copy to remove detectable AI writing patterns across seven categories: overused vocabulary, structural patterns, puffery and significance inflation, copula avoidance, formatting artifacts, collaborative chatbot language, and knowledge-cutoff disclaimers
+- Humanize rewrites AI generated copy to remove detectable AI writing patterns across seven categories: overused vocabulary, structural patterns, puffery and significance inflation, copula avoidance, formatting artifacts, collaborative chatbot language, and knowledge-cutoff disclaimers
 - Em dashes are eliminated entirely
 - The skill preserves the original meaning, length, and intent throughout
 - After each pass, it delivers a plain-language change report and offers further edits or file download in Word, plain text, or Markdown
@@ -71,7 +71,7 @@ Structural refactor to align with the Anthropic Agent Skill standard. No change 
 
 Part of The Samaritan Project
 
-This tool was built for and extracted from [The Samaritan Project](https://buymeacoffee.com/thesamaritanproject) — a build-in-public, self-hosted, multi-agent OSINT and intelligence research platform built on OpenClaw running on Parrot OS bare metal.
+This tool was built for and extracted from [The Samaritan Project](https://buymeacoffee.com/thesamaritanproject): a build-in-public, self-hosted, multi-agent OSINT and intelligence research platform built on OpenClaw running on Parrot OS bare metal.
 
 Support The Samaritan Project at [buymeacoffee.com/thesamaritanproject](https://buymeacoffee.com/thesamaritanproject)
 
@@ -79,10 +79,10 @@ Support The Samaritan Project at [buymeacoffee.com/thesamaritanproject](https://
 
 ## License
 
-MIT — free to use, modify, and distribute.
+MIT-free to use, modify, and distribute.
 
 ---
 
 ## About the developer
 
-[Harold Mansfield](https://linkedin.com/in/haroldmansfield/) — AI Integration Consultant | AI Coaching | Agentic OSINT Automation | Sec+ CySA+
+[Harold Mansfield](https://linkedin.com/in/haroldmansfield/),  AI Consultant & Integration Specialst | Sec+ CySA+
